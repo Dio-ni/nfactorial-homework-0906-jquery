@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animated Login Form</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+	<img class="wave" src="img/wave.png">
+	<div class="buttons">
+		<button class="btn" id="storybtn">story</button>
+	<button class="btn" id = "tomthumb">Tom Thumb</button>
+	</div>
+	
+	<div class="container story_box" >
+		
+		
+		<div class="login-content">
+			
+			<form action="index.html"   >		
+				<h2 class="title">Welcome</h2>
+				<h4 class="title">you can be a fantasy story's hero</h4>
+           		<div class="input-div one">
+           		   <div class="i">
+					<i class="fa fa-venus"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Name</h5>
+           		   		<input type="text" class="input" id ="name">
+           		   </div>
+           		</div>
+           		<div class="input-div one">
+           		   <div class="i"> 
+					<i class="fa fa-mars"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Your Prince</h5>
+           		    	<input type="text" class="input" id="leadname">
+            	   </div>
+            	</div>
+				<div class="input-div one">
+					<div class="i">
+						<i class="fa-solid fa-code"></i>
+					</div>
+					<div class="div">
+							<h5>Random Number</h5>
+							<input type="number" class="input" id = "number">
+					</div>
+				 </div>
+				 <div class="input-div one">
+					<div class="i">
+						<i class="fa-solid fa-person-running"></i>
+					</div>
+					<div class="div">
+							<h5>Action</h5>
+							<input type="text" class="input" id="action">
+					</div>
+				 </div>
+            	<a href="#">action should be a random </a>
+            	<input type="submit" class="btn" value="Tell Story" id = "submit">
+            </form>
+        </div>
+		<div class="img">
+			
+			<div class="story"></div>
+			<img src="img/wizard.png">
+		</div>
+		
+    </div>
+	<div class="container  tomthumb_box">
+		
+		
+		<div class="login-content">
+			
+			<form action="index.html"   >		
+				<h2 class="title">Welcome</h2>
+				<h4 class="title">calculate file size</h4>
+           		<div class="input-div one">
+           		   <div class="i">
+					<i class="fa fa-venus"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Image width(px):</h5>
+           		   		<input type="number" class="input" id ="width">
+           		   </div>
+           		</div>
+           		<div class="input-div one">
+           		   <div class="i"> 
+					<i class="fa fa-mars"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Image height(px):</h5>
+           		    	<input type="number" class="input" id="height">
+            	   </div>
+            	</div>
+				<div class="input-div one">
+					<div class="i">
+						<i class="fa-solid fa-code"></i>
+					</div>
+					<div class="div">
+							<h5>Number of Colors</h5>
+							<input type="number" class="input" id = "colors">
+					</div>
+				 </div>
+				 
+            	<input type="submit" class="btn" value="Calculate File Size" id = "fileSize">
+            </form>
+        </div>
+		<div class="img">
+			
+			<div class="story"></div>
+			<img src="img/design-software.png">
+		</div>
+		
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
